@@ -1,0 +1,111 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #8052ec, #d161ff);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  width: 36%;
+  position: absolute;
+  left: 32%;
+  top: 8%;
+  padding: 20px 20px;
+  border-radius: 6px;
+}
+#newTask {
+  background-color: #ffffff;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+#newTask input {
+  border: 2px solid #d1d3d4;
+  width: 57%;
+  margin-right: 23px;
+  height: 30px;
+  padding-left: 10px;
+  font-size: 16px;
+  color: #111111;
+  font-weight: 500;
+  position: relative;
+  border-radius: 5px;
+}
+#newTask input:focus {
+  border-color: #8052ec;
+  outline: none;
+}
+#add {
+  position: relative;
+  width: 60px;
+  height: 34px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #8052ec;
+}
+#tasks {
+  background-color: #ffffff;
+  padding: 10px 19px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px 30px rgba(0, 0, 0, 0.1);
+  width: 92%;
+  position: relative;
+}
+.task {
+  background-color: #fff;
+  height: 27px;
+  padding: 5px 10px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #d1d3d4;
+  cursor: pointer;
+}
+.task span {
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 0;
+  text-decoration-color: #8052ec;
+  color: #8052ec;
+}
+.task button {
+  background-color: #8052ec;
+  color: #ffffff;
+  height: 36px;
+  width: 40px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+#save {
+  width: 60px;
+  height: 34px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #8052ec;
+}
+input[type="checkbox"] {
+  background-color: #8052ec;
+  color: #ffffff;
+  cursor: pointer;
+}
+h1 {
+  text-align: center;
+  color: #fff;
+  margin-top: 0;
+}
